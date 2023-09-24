@@ -1,0 +1,46 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .4s;
+}
+@font-face {
+    font-family: font1;
+    src: url(font/Zen_Dots/ZenDots-Regular.ttf);
+}
+body{
+    text-transform: capitalize;
+    font-family: font1;
+    background-image: url(img/bg1.jpg);
+    cursor: calc(50%);
+    
+
+}
+img{
+    object-fit: cover;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+i{
+    color: black;
+    font-size: 20px;
+}
+figure{
+    overflow: hidden;
+}
+
+
+li{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}

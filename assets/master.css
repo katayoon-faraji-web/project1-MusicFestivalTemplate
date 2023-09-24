@@ -1,0 +1,656 @@
+.headtop {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.headtop > header {
+  width: 100%;
+}
+.headtop > header > .row marquee {
+  width: 100%;
+  background-color: black;
+  font-size: 17px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+.headtop > header > .row > nav {
+  width: 100%;
+  height: 100px;
+  padding: 10px 30px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headtop > header > .row > nav > figure {
+  width: 10%;
+}
+.headtop > header > .row > nav > figure > img {
+  width: 100%;
+}
+.headtop > header > .row > nav > ul {
+  height: 100%;
+  width: 60%;
+  justify-content: center;
+}
+.headtop > header > .row > nav > ul > li {
+  margin: 0 10px;
+  height: 100%;
+  padding: 10px;
+  position: relative;
+}
+.headtop > header > .row > nav > ul > li:hover > .megamenu, .headtop > header > .row > nav > ul > li:hover > .dropdown {
+  opacity: 1;
+  visibility: visible;
+}
+.headtop > header > .row > nav > ul > li > .dropdown, .headtop > header > .row > nav > ul > li > .megamenu {
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  position: absolute;
+  top: 100%;
+  left: 15px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+}
+.headtop > header > .row > nav > ul > li > .dropdown {
+  width: 80%;
+}
+.headtop > header > .row > nav > ul > li > .dropdown > li {
+  width: 100%;
+  height: 40px;
+  color: black;
+  transition: 0.4s;
+}
+.headtop > header > .row > nav > ul > li > .dropdown > li:hover {
+  color: white;
+}
+.headtop > header > .row > nav > ul > li > .megamenu {
+  width: 500%;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul {
+  width: 40%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li {
+  align-content: space-evenly;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li > figure {
+  width: 100%;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li > ul {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100%;
+  height: 40%;
+  align-content: space-evenly;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li > ul > li {
+  width: 100%;
+  height: 40px;
+  color: black;
+  transition: 0.4s;
+}
+.headtop > header > .row > nav > ul > li > .megamenu > li > ul > li > ul > li:hover {
+  color: white;
+}
+.headtop > header > .row > nav > ul > li:hover > a {
+  color: gray;
+}
+.headtop > header > .row > nav > ul > li:hover::after, .headtop > header > .row > nav > ul > li:hover::before {
+  width: 80%;
+  left: 10%;
+}
+.headtop > header > .row > nav > ul > li::before, .headtop > header > .row > nav > ul > li::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  width: 0;
+  height: 1px;
+  background-color: black;
+  left: 50%;
+  transform: 0.4s;
+}
+.headtop > header > .row > nav > ul > li::before {
+  top: 10px;
+}
+.headtop > header > .row > nav > ul > li::after {
+  top: 90%;
+}
+.headtop > header > .row > nav > ul > li > a {
+  color: black;
+}
+.headtop > header > .row > nav > div {
+  height: 100%;
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+}
+.headtop > header > .row > nav > div > i {
+  margin: 0 10px;
+}
+.headtop > header > .row > nav > div > i:hover {
+  background-color: white;
+  border-radius: 50%;
+}
+.headtop > section {
+  width: 100%;
+  height: 100vh;
+  justify-content: space-between;
+}
+.headtop > section > div:first-of-type {
+  width: 15%;
+  position: relative;
+  left: 50px;
+}
+.headtop > section > div:first-of-type > figure {
+  position: absolute;
+}
+.headtop > section > div:first-of-type > figure:nth-of-type(1) {
+  top: 300px;
+}
+.headtop > section > div:first-of-type > figure:nth-of-type(2) {
+  top: 250px;
+}
+.headtop > section > div:first-of-type > figure:nth-of-type(3) {
+  top: 200px;
+}
+.headtop > section > div:first-of-type > figure:nth-of-type(4) {
+  top: 150px;
+}
+.headtop > section > div:first-of-type > figure:nth-of-type(5) {
+  top: 100px;
+}
+.headtop > section > div:last-of-type {
+  width: 25%;
+}
+.headtop > section > div:last-of-type > div {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.headtop > section > div:last-of-type > div:first-of-type {
+  margin-bottom: 40px;
+}
+.headtop > section > div:last-of-type > div:first-of-type > figure {
+  position: absolute;
+  top: 100px;
+}
+.headtop > section > div:last-of-type > div:first-of-type > figure:nth-of-type(1) {
+  right: 50px;
+  top: 100x;
+}
+.headtop > section > div:last-of-type > div:first-of-type > figure:nth-of-type(2) {
+  right: 100px;
+  top: 80px;
+}
+.headtop > section > div:last-of-type > div:first-of-type > figure:nth-of-type(3) {
+  right: 150px;
+  top: 60px;
+}
+.headtop > section > div:last-of-type > div:first-of-type > figure:nth-of-type(4) {
+  right: 220px;
+  top: 75px;
+  transform: scale(1.2);
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure {
+  position: absolute;
+  top: 100px;
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure:nth-of-type(1) {
+  right: 10px;
+  top: 100x;
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure:nth-of-type(2) {
+  right: 50px;
+  top: 80px;
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure:nth-of-type(3) {
+  right: 90px;
+  top: 60px;
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure:nth-of-type(4) {
+  right: 130px;
+  top: 40px;
+}
+.headtop > section > div:last-of-type > div:last-of-type > figure:nth-of-type(5) {
+  right: 170px;
+  top: 20px;
+}
+.headtop > section > div:nth-of-type(2) {
+  align-content: center;
+  justify-content: center;
+  width: 30%;
+}
+.headtop > section > div:nth-of-type(2) > figure {
+  width: 800px;
+}
+.headtop > section > div:nth-of-type(2) > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.headtop > section > div:nth-of-type(2) > p {
+  font-size: 20px;
+  text-align: center;
+}
+.headtop > section > div:nth-of-type(2) > .row {
+  width: 100%;
+  justify-content: center;
+}
+.headtop > section > div:nth-of-type(2) > .row > div {
+  height: 50px;
+  width: 40%;
+  margin: 50px 20px;
+  position: relative;
+}
+.headtop > section > div:nth-of-type(2) > .row > div > * {
+  position: relative;
+  z-index: 1;
+}
+.headtop > section > div:nth-of-type(2) > .row > div:hover::after {
+  width: 100%;
+}
+.headtop > section > div:nth-of-type(2) > .row > div::after {
+  content: "";
+  display: flex;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 100%;
+  top: 0;
+  background-color: rgba(128, 128, 128, 0.502);
+  transition: 1s;
+}
+.headtop > section > div:nth-of-type(2) > .row > div:first-of-type {
+  background-color: black;
+  color: white;
+}
+.headtop > section > div:nth-of-type(2) > .row > div:last-of-type {
+  color: black;
+  border: 1px solid black;
+}
+.headtop > section > div:nth-of-type(2) > .row > div > a {
+  font-size: 15px;
+  transition: 1s;
+  width: 80%;
+}
+.headtop > section > div:nth-of-type(2) > .row > div > i {
+  display: flex;
+  align-items: center;
+}
+.headtop > section > div:nth-of-type(2) > .row > div > i:last-of-type {
+  color: black;
+}
+
+.sec2 {
+  margin-top: 200px;
+  width: 100%;
+}
+.sec2 > .row {
+  justify-content: space-evenly;
+}
+.sec2 > .row > div {
+  width: 30%;
+  align-content: center;
+  justify-content: center;
+}
+.sec2 > .row > div > strong {
+  font-size: 25px;
+  color: black;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.sec2 > .row > div > p {
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+  margin: 20px 0;
+}
+.sec2 > .row > div > .row {
+  width: 100%;
+  justify-content: center;
+}
+.sec2 > .row > div > .row:hover > a {
+  color: white;
+  border-bottom: 2px solid white;
+}
+.sec2 > .row > div > .row > a {
+  color: black;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+  width: 70%;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.sec3 {
+  width: 100%;
+  margin-top: 100px;
+  padding: 80px;
+  background-image: url(img/bg2.jpg);
+  background-size: cover;
+}
+.sec3 > .row > h2 {
+  font-size: 40px;
+  color: black;
+}
+.sec3 > .row > .row {
+  width: 100%;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.sec3 > .row > .row > .row {
+  width: 100%;
+  margin: 30px 0;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+.sec3 > .row > .row > .row > .row {
+  width: 20%;
+}
+.sec3 > .row > .row > .row > .row:hover {
+  transform: translateY(-20px);
+}
+.sec3 > .row > .row > .row > .row > figure {
+  width: 100%;
+  position: relative;
+}
+.sec3 > .row > .row > .row > .row > figure:hover::after {
+  height: 100px;
+  opacity: 1;
+}
+.sec3 > .row > .row > .row > .row > figure::after {
+  content: "Book Now";
+  color: rgba(255, 255, 255, 0.639);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.498);
+  opacity: 0;
+}
+.sec3 > .row > .row > .row > .row > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec3 > .row > .row > .row > .row > strong {
+  display: flex;
+  width: 100%;
+  color: black;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.sec3 > .row > .row > .row > .row > .row > i {
+  font-size: 20px;
+  color: black;
+  margin-right: 10px;
+}
+.sec3 > .row > .row > .row > .row > .row > span {
+  font-size: 15px;
+  color: gray;
+}
+.sec3 > .row > .row > .row > .row > .row:nth-of-type(3) {
+  justify-content: center;
+  margin-top: 20px;
+  padding: 5px;
+  border-bottom: 1px solid black;
+}
+.sec3 > .row > .row > .row > .row > .row:nth-of-type(3):hover {
+  border-bottom: 2px solid white;
+}
+.sec3 > .row > .row > .row > .row > .row:nth-of-type(3):hover > a {
+  color: white;
+}
+.sec3 > .row > .row > .row > .row > .row:nth-of-type(3) > a {
+  color: black;
+  font-size: 12px;
+  width: 70%;
+}
+.sec3 > .row > .row > .row > .row > .row:nth-of-type(3) > i {
+  display: flex;
+  width: 20%;
+  align-items: center;
+}
+.sec3 > .row > div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+.sec3 > .row > div:hover > a {
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+.sec3 > .row > div:hover > a > i {
+  color: black;
+}
+.sec3 > .row > div > a {
+  width: 250px;
+  height: 50px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 14px;
+}
+.sec3 > .row > div > a i {
+  color: white;
+  margin-left: 10px;
+}
+
+.sec4 {
+  width: 100%;
+  overflow: hidden;
+}
+.sec4 > figure {
+  width: 100%;
+}
+.sec4 > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec4 > .row {
+  margin-top: 50px;
+  height: 450px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(img/23.jpg);
+  background-size: cover;
+  transform: 1s;
+}
+.sec4 > .row:hover {
+  transform: scale(1.1);
+}
+.sec4 > .row:hover > i {
+  color: black;
+}
+.sec4 > .row > i {
+  color: white;
+  font-size: 50px;
+  transition: 0.4s;
+}
+
+.sec5 {
+  width: 100%;
+  margin-top: 100px;
+  background-image: url(img/bg4.jpg);
+  background-size: cover;
+}
+.sec5 > .row {
+  justify-content: center;
+  align-content: center;
+}
+.sec5 > .row > * {
+  width: 100%;
+  text-align: center;
+}
+.sec5 > .row > h3 {
+  font-size: 30px;
+  color: black;
+}
+.sec5 > .row > p {
+  font-size: 17px;
+  color: gray;
+  font-style: italic;
+  margin: 20px 0;
+  width: 50%;
+}
+.sec5 > .row > span {
+  font-size: 20px;
+  color: black;
+}
+
+.sec6 {
+  margin-top: 100px;
+  width: 100%;
+  background-image: url(img/bg5.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+.sec6 > .container {
+  width: 90%;
+  height: 220vh;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(23, 1fr);
+}
+.sec6 > .container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec6 > .container > div:hover {
+  opacity: 0.7;
+  transform: translateY(20px);
+}
+.sec6 > .container > div > figure {
+  width: 100%;
+  overflow: hidden;
+}
+.sec6 > .container > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sec6 > .container > div:nth-of-type(1) {
+  grid-area: 1/1/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(2) {
+  grid-area: 1/2/span 8/span 1;
+}
+.sec6 > .container > div:nth-of-type(3) {
+  grid-area: 1/3/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(4) {
+  grid-area: 1/4/span 8/span 1;
+}
+.sec6 > .container > div:nth-of-type(5) {
+  grid-area: 7/1/span 8/span 1;
+}
+.sec6 > .container > div:nth-of-type(6) {
+  grid-area: 8/2/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(7) {
+  grid-area: 7/3/span 8/span 1;
+}
+.sec6 > .container > div:nth-of-type(8) {
+  grid-area: 8/4/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(9) {
+  grid-area: 14/1/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(10) {
+  grid-area: 15/2/span 8/span 1;
+}
+.sec6 > .container > div:nth-of-type(11) {
+  grid-area: 14/3/span 7/span 1;
+}
+.sec6 > .container > div:nth-of-type(12) {
+  grid-area: 15/4/span 8/span 1;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 50px;
+  background-color: #0f0c13;
+  color: white;
+}
+.footer > .row {
+  align-content: center;
+}
+.footer > .row > .row {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.footer > .row > .row:nth-of-type(1) {
+  justify-content: center;
+  align-items: center;
+}
+.footer > .row > .row:nth-of-type(1) > figure {
+  width: 200px;
+  overflow: hidden;
+}
+.footer > .row > .row:nth-of-type(1) > figure > img {
+  width: 100%;
+  height: 100%;
+}
+.footer > .row > .row:first-of-type > li:hover {
+  color: gray;
+  transform: scale(1.2);
+  border-bottom: 1px solid gray;
+}
+.footer > .row > .row > li {
+  margin: 0 20px;
+}
+.footer > .row > .row:last-of-type > li {
+  margin-top: 20px;
+  width: 50%;
+}
+.footer > .row > .row:last-of-type > li > a {
+  font-size: 15px;
+  color: white;
+}
+.footer > .row > .row:last-of-type > li > a:hover {
+  color: gray;
+  transform: scale(1.1);
+}
+.footer > .row > .row:last-of-type > li > a > i {
+  transition: 0.4s;
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+}
+.footer > .row > .row:last-of-type > li:hover {
+  color: gray;
+}/*# sourceMappingURL=master.css.map */
