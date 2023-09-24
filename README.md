@@ -6,7 +6,7 @@
 
 ![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816-b476-a88e984abefe.jpg)
 
-- [Demo Project](https://katayoon-faraji-web.github.io/image_hover_effect/)
+- [Demo Project](https://katayoon-faraji-web.github.io/project1/)
 
 - Developed by katayoon faraji
 
