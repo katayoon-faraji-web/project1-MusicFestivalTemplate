@@ -4,7 +4,7 @@
 
 ![viewfinal](https://user-images.githubusercontent.com/109727844/204102879-086fee63-9bda-43b2-a1aa-49879c3f2d39.jpg)
 
-![view final](https://github.com/katayoon-faraji-web/project1/issues/1)
+![project1](https://github.com/katayoon-faraji-web/project1/assets/144775981/4543baa9-cd65-4a0f-bb35-e537341c3674)
 
 - [Demo Project](https://katayoon-faraji-web.github.io/project1/)
 
