@@ -8,11 +8,9 @@
 
 - Developed by katayoon faraji
 
-- 🗓️Created - 2023-09-24
+- 🗓️Created - 2023-09
 
-- 💻Technologies Used - Html , css ,Saa
-
-- Hooks Used : useState 
+- 💻Technologies Used - Html , css ,Sass
 
 - Role - Frontend
 
