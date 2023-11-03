@@ -4,7 +4,7 @@
 
 ![project1](https://github.com/katayoon-faraji-web/project1/assets/144775981/4543baa9-cd65-4a0f-bb35-e537341c3674)
 
-- [Demo Project](https://katayoon-faraji-web.github.io/project1/)
+- [Demo Project](https://katayoon-faraji-web.github.io/project1-MusicFestivalTemplate/)
 
 - Developed by katayoon faraji
 
